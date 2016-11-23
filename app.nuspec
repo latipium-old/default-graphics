@@ -10,8 +10,7 @@
     </releaseNotes>
     <summary>The default graphics implementation for Latipium</summary>
     <language>en-US</language>
-    <projectUrl>
-    </projectUrl>
+    <projectUrl>https://github.com/latipium/default-graphics</projectUrl>
     <iconUrl>https://latipium.com/favicon.ico</iconUrl>
     <licenseUrl>https://github.com/latipium/default-graphics/blob/master/LICENSE</licenseUrl>
     <copyright>Copyright (c) 2016 Zach Deibert</copyright>
