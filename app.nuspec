@@ -1,28 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
-    <metadata>
-        <id>Com.Latipium.Template</id>
-        <version>{{ version }}</version>
-        <title>Latipium Module Template</title>
-        <authors>Zach Deibert</authors>
-        <description>A template for modules developers to use as a starting point for their modules</description>
-        <releaseNotes></releaseNotes>
-        <summary>A template for modules developers to use as a starting point for their modules</summary>
-        <language>en-US</language>
-        <projectUrl>https://latipium.com/</projectUrl>
-        <iconUrl>https://latipium.com/favicon.ico</iconUrl>
-        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
-        <copyright>Copyright (c) 2016 Zach Deibert</copyright>
-        <requireLicenseAcceptance>true</requireLicenseAcceptance>
-        <dependencies>
-            <dependency id="log4net" version="2.0.5" />
-        </dependencies>
-        <frameworkAssemblies>
-            <frameworkAssembly assemblyName="System" />
-        </frameworkAssemblies>
-        <tags>Latipium Development Non-Mod</tags>
-    </metadata>
-    <files>
-        <file src="bin/{{ configuration }}/Com.Latipium.Template.dll" target="lib/net45" />
-    </files>
+  <metadata>
+    <id>Com.Latipium.Defaults.Graphics</id>
+    <version>{{ version }}</version>
+    <title>Default Latipium Graphics Module</title>
+    <authors>Zach Deibert</authors>
+    <description>The default graphics implementation for Latipium</description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>The default graphics implementation for Latipium</summary>
+    <language>en-US</language>
+    <projectUrl>
+    </projectUrl>
+    <iconUrl>https://latipium.com/favicon.ico</iconUrl>
+    <licenseUrl>https://github.com/latipium/default-graphics/blob/master/LICENSE</licenseUrl>
+    <copyright>Copyright (c) 2016 Zach Deibert</copyright>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <dependencies>
+      <dependency id="log4net" version="2.0.5" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="System" />
+    </frameworkAssemblies>
+    <tags>Latipium</tags>
+  </metadata>
+  <files>
+    <file src="bin/{{ configuration }}/Com.Latipium.Defaults.Graphics.dll" target="lib/net45" />
+  </files>
 </package>
