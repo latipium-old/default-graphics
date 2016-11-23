@@ -266,6 +266,10 @@ namespace Com.Latipium.Defaults.Graphics {
 			});
 		}
 
+        /// <summary>
+        /// Loads the module.
+        /// </summary>
+        /// <param name="name">The name of the module.</param>
 		public override void Load(string name) {
 			Renderer = new GameRenderer();
 			Renderer.Add(new ColorArrayRenderer());
@@ -279,6 +283,9 @@ namespace Com.Latipium.Defaults.Graphics {
 			}
 		}
 
+        /// <summary>
+        /// Causes the module factory to load this module.
+        /// </summary>
 		public void Load() {
 			// Ensure this is loaded before any of the objects are added
 			ModuleFactory.FindModule("Com.Latipium.Modules.Graphics");
